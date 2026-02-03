@@ -990,7 +990,7 @@ if Config.expressionCommands then
     end
 end
 
-if Config.emoteCancelKey then
+if Config.emoteCancelKey ~= '' then
     lib.addKeybind({
         name = 'emoteCancelKey',
         description = locale('cancel_emote'),
